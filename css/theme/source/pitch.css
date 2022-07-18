@@ -1,0 +1,36 @@
+@font-face {font-family: "Dijkstra";
+            src: url("/fonts/dijkstra.eot"); /* IE9*/
+            src: url("/fonts/dijkstra-ie.eot") format("embedded-opentype"), /* IE6-IE8 */
+                 url("/fonts/dijkstra.woff2") format("woff2"), /* chrome firefox */
+                 url("/fonts/dijkstra.woff") format("woff"), /* chrome firefox */
+                 url("/fonts/dijkstra.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+                 url("/fonts/dijkstra.svg") format("svg"); /* iOS 4.1- */
+}
+
+:root {
+  --r-main-font: Dijkstra, sans-serif;
+  --r-heading-font: Dijkstra, Impact, sans-serif;
+}
+
+.reveal p,
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  letter-spacing: 0.02em;
+  text-shadow: 0 1px 0 black;
+  text-transform: initial;
+  background: rgba(253,246,227, 0.75);
+  padding: 14px 18px;
+  margin: 0;
+}
+
+.reveal .author {
+  font-size: 30px
+}
+
+.reveal .date {
+  font-size: 20px;
+}
